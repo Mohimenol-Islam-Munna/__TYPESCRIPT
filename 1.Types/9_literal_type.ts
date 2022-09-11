@@ -11,3 +11,5 @@ const role2 = "user";
 // role2 = "editor"; through error
 
 console.log("role2 ::", role2);
+
+export {}
