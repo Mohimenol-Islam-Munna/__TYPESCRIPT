@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 //6. Union : combination of multiple types
 var address = "bangladesh";
 var info;

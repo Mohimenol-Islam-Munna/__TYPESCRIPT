@@ -13,3 +13,5 @@ console.log("info :", info);
 info = null;
 
 console.log("info :", info);
+
+export {}
