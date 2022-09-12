@@ -33,3 +33,5 @@ let countries: CountryOrCountryCode[] = ["bd", 880, "ind"];
 
 console.log("countries ::", countries);
 
+export {}
+
