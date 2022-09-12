@@ -7,7 +7,6 @@ type PlayerIncome = string | number;
 type Player = {
   id: string;
   name: string;
-  club: string;
   country: string;
   hasWc: boolean;
 };
@@ -21,7 +20,6 @@ console.log("playerIncom ::", playerIncom);
 const player1: Player = {
   id: "m-13",
   name: "messi",
-  club: "psg",
   country: "argentina",
   hasWc: false,
 };
@@ -33,5 +31,21 @@ let countries: CountryOrCountryCode[] = ["bd", 880, "ind"];
 
 console.log("countries ::", countries);
 
-export {}
+// type alias extends
 
+type PlayerInfo = Player & {
+  club: string;
+};
+
+const player2: PlayerInfo = {
+  id: "m-13",
+  name: "levendoski",
+  club: "bercelona",
+  country: "poland",
+  hasWc: false,
+};
+
+console.log("player2 ::", player2);
+
+
+export {};
