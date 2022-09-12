@@ -1,1 +1,1 @@
-# __TYPESCRIPT
+### TYPESCRIPT
