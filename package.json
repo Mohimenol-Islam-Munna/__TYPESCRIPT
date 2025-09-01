@@ -1,0 +1,26 @@
+{
+  "name": "__typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohimenol-Islam-Munna/__TYPESCRIPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohimenol-Islam-Munna/__TYPESCRIPT/issues"
+  },
+  "homepage": "https://github.com/Mohimenol-Islam-Munna/__TYPESCRIPT#readme",
+  "dependencies": {
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

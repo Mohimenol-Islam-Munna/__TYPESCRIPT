@@ -1,4 +1,6 @@
+"use strict";
 // 13 . enum (Custom Type)
+Object.defineProperty(exports, "__esModule", { value: true });
 // 13.1 number enum
 var Role;
 (function (Role) {
@@ -21,17 +23,18 @@ var HeterogeneousEnum;
     HeterogeneousEnum[HeterogeneousEnum["No"] = 0] = "No";
     HeterogeneousEnum["Yes"] = "Yes";
 })(HeterogeneousEnum || (HeterogeneousEnum = {}));
-var person1 = {
+let person1 = {
     name: "munna",
     role: Role.ADMIN,
     type: Types.EDITOR,
-    isEmployee: HeterogeneousEnum.Yes
+    isEmployee: HeterogeneousEnum.Yes,
 };
-var person2 = {
+let person2 = {
     name: "munna islam",
     role: Role.AUTHOR,
     type: Types.GENERAL,
-    isEmployee: HeterogeneousEnum.No
+    isEmployee: HeterogeneousEnum.No,
 };
 console.log("person1 ::", person1);
 console.log("person2 ::", person2);
+//# sourceMappingURL=13_enum.js.map

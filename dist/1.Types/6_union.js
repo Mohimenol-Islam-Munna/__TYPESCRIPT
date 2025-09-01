@@ -1,13 +1,14 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 //6. Union : combination of multiple types
-var address = "bangladesh";
-var info;
+let address = "bangladesh";
+let info;
 info = {
     id: 1,
-    name: "munna"
+    name: "munna",
 };
 console.log("info :", info);
 // info = "munna"; through error 
 info = null;
 console.log("info :", info);
+//# sourceMappingURL=6_union.js.map

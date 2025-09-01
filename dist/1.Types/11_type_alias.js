@@ -1,26 +1,27 @@
 "use strict";
 // 11. Type Alias (Custom Type)
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // variable with type alias
-var playerIncom;
+let playerIncom;
 playerIncom = "120 core";
 console.log("playerIncom ::", playerIncom);
 // object with type alias
-var player1 = {
+const player1 = {
     id: "m-13",
     name: "messi",
     country: "argentina",
-    hasWc: false
+    hasWc: false,
 };
 console.log("player1 ::", player1);
 // array with type alias
-var countries = ["bd", 880, "ind"];
+let countries = ["bd", 880, "ind"];
 console.log("countries ::", countries);
-var player2 = {
+const player2 = {
     id: "m-13",
     name: "levendoski",
     club: "bercelona",
     country: "poland",
-    hasWc: false
+    hasWc: false,
 };
 console.log("player2 ::", player2);
+//# sourceMappingURL=11_type_alias.js.map

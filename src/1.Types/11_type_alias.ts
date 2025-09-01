@@ -1,7 +1,5 @@
 // 11. Type Alias (Custom Type)
-
 type CountryOrCountryCode = string | number;
-
 type PlayerIncome = string | number;
 
 type Player = {
@@ -11,10 +9,9 @@ type Player = {
   hasWc: boolean;
 };
 
-// variable with type alias
-let playerIncom: PlayerIncome;
-playerIncom = "120 core";
-console.log("playerIncom ::", playerIncom);
+// primitive data type with type alias.
+let playerIncome: PlayerIncome;
+playerIncome = "120 core";
 
 // object with type alias
 const player1: Player = {
@@ -24,28 +21,22 @@ const player1: Player = {
   hasWc: false,
 };
 
-console.log("player1 ::", player1);
-
 // array with type alias
 let countries: CountryOrCountryCode[] = ["bd", 880, "ind"];
 
-console.log("countries ::", countries);
-
 // type alias extends
-
 type PlayerInfo = Player & {
   club: string;
 };
 
 const player2: PlayerInfo = {
   id: "m-13",
-  name: "levendoski",
-  club: "bercelona",
+  name: "Jamal",
+  club: "barcelona",
   country: "poland",
   hasWc: false,
 };
 
 console.log("player2 ::", player2);
-
 
 export {};
