@@ -8,11 +8,11 @@ let player2: string = "ronaldo";
 console.log("string :: player1 & player2 :", player1, player2);
 
 // 1.2 number
-let jersy1: number;
-jersy1 = 10;
-let jersy2: number = 7;
+let jersey1: number;
+jersey1 = 10;
+let jersey2: number = 7;
 
-console.log("number :: jersy1 & jersy2 :", jersy1, jersy2);
+console.log("number :: jersey1 & jersey2 :", jersey1, jersey2);
 
 // 1.3 boolean
 let isArgentine1: boolean;
@@ -63,4 +63,4 @@ const firstName2 = Symbol("cristian");
 
 console.log("symbol :: firstName1 & firstName2 :", firstName1, firstName2);
 
-export {}
+export {};

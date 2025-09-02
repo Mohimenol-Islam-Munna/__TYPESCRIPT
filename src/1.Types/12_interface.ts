@@ -1,4 +1,4 @@
-// 11. interface (Custom Type)
+// 11. interface
 
 interface Player {
   id: string;

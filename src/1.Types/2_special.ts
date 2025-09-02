@@ -1,6 +1,6 @@
 // 2. special type
 
-// 2.1 any (not recommanded to use)
+// 2.1 any (not recommended to use)
 let brandAmbassador1: any = 1;
 brandAmbassador1 = "pepsi";
 
@@ -24,7 +24,7 @@ let position1: unknown;
 position1 = 1;
 position1 = "midfield";
 
-let position2: unknown = "stricker";
+let position2: unknown = "striker";
 
 // let newVal: string = position2;  // through error
 // console.log(position2.toUpperCase()) // through error

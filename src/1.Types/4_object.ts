@@ -2,7 +2,7 @@ const obj1: object = {
   id: 1,
   name: "Lukaku",
   club: "Milan",
-  jersy: 9,
+  jersey: 9,
   hasWc: false,
 };
 
@@ -10,13 +10,13 @@ const obj2: {
   id: number;
   name: string;
   club: string;
-  jersy: number;
+  jersey: number;
   hasWc: boolean;
 } = {
   id: 1,
   name: "messi",
   club: "psg",
-  jersy: 10,
+  jersey: 10,
   hasWc: false,
 };
 
@@ -25,12 +25,12 @@ const obj3: {
   id: number;
   name: string;
   club?: string;
-  jersy: number;
+  jersey: number;
   hasWc: boolean;
 } = {
   id: 1,
   name: "Martinez",
-  jersy: 9,
+  jersey: 9,
   hasWc: false,
 };
 

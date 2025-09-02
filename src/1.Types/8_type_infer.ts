@@ -1,12 +1,12 @@
-// 8. Type Infer : Typescript can infer the type of variable based on it's value. 
+// 8. Type Infer : Typescript can infer the type of variable based on it's value.
 
-// here we asign string value to playerName variable 
-let playerName = "Tamim";
+// here we assign string value to playerName variable
+let playerName = "T Tamim";
 
-// These will through error cause typescript infered that, type of playerName variable is string based on it's initial value.
-// playerName = 10; 
+// These will through error cause typescript inferred that, type of playerName variable is string based on it's initial value.
+// playerName = 10;
 // playerName = true;
 
-playerName = "Tamim Iqbal Khan";
+playerName = "T Tamim Iqbal Khan";
 
-console.log("player name ::", playerName)
+console.log("player name ::", playerName);
